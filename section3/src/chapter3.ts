@@ -38,4 +38,4 @@ let dog: dog = {
 
 animal = dog;
 
-dog = animal;
+// dog = animal;
