@@ -39,3 +39,26 @@ let dog: dog = {
 animal = dog;
 
 // dog = animal;
+
+type Book = {
+  name: string;
+  price: number;
+};
+
+type ProgramingBook = {
+  name: string;
+  price: number;
+  skill: string;
+};
+
+let book: Book;
+let pro: ProgramingBook = {
+  name: 'react',
+  price: 33000,
+  skill: 'reactjs',
+};
+
+book = pro;
+// pro = book;
+
+// 초과 프로퍼티 검사
