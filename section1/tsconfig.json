@@ -1,16 +1,11 @@
 {
-  "include": ["src"],
-  // src 경로 아래 한번에 컴파일
-  // 컴파일 경로 알려줌
   "compilerOptions": {
+    "skipDefaultLibCheck": true,
     "target": "ESNext",
-    // 컴파일 과정에서 해당 옵션에 맞춰서 컴파일
     "module": "ESNext",
     "outDir": "dist",
     "strict": true,
     "moduleDetection": "force"
   },
-  "ts-node": {
-    "esm": true
-  }
+  "include": ["src"]
 }
