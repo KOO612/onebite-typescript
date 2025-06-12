@@ -19,3 +19,14 @@ let null1: null = null;
 
 // undefined
 let undefined1: undefined = undefined;
+
+// let numA: number = null;
+
+// 리터럴 타입
+// 리터럴 -> 값
+// 복합적인 타입을 만들때 유용함
+let numA: 10 = 10;
+
+let strA: "hello" = "hello";
+
+// let boolA: true = false;
